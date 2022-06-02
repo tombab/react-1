@@ -1,3 +1,25 @@
 body {
   margin: 0;
 }
+
+.app {
+  background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.checkboxContainer {
+  width: 150px;
+  height: 200px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
